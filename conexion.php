@@ -1,11 +1,10 @@
 <?php
-<?php
-$hostname_localhost = "localhost";
-$database_localhost = "id7352247_link_db";
-$username_localhost = "id7352247_enmsilink";
-$password_localhost = "evenlink";
+$servidor = "localhost";
+$basedatos = "id7352247_link_db";
+$username = "root";
+$password = "";
 
-$conexion = mysqli_connect($hostname_localhost,$username_localhost,$password_localhost);
-$db = mysqli_select_db($database_localhost)or die(mysqli_error());
+$conexion = mysqli_connect($servidor,$username,$password);
+$db = mysqli_select_db($conexion,$basedatos)or die(mysqli_error());
 
 ?>

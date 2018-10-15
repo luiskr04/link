@@ -11,7 +11,7 @@
 	<body>
 		<div class="form-box" id="login/box">
 			<div class="header">Registro de Participantes.</div>
-			<form action="registrar_usuarios.php" method="post">
+			<form action="registrar_participantes.php" method="post">
 				<div class="body bg-gray">
 					<div class="form-group">
 						<input type="text" name="nombre" class="form-control" placeholder="Nombre(s)"/>
